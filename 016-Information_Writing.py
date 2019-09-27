@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+print('Please Enter Player Information:')
+file1 = open('E:/Python/016/write1.txt','a')
+Name = str(input('Name:'))
+Number = str(input('Number:'))
+Country = str(input('Country:'))
+Last_Team = str(input('Last_Team:'))
+file1.write('Player%s Information\n'%Number)
+print('Name=',Name,'Number=',Number,'Country=',Country,'Last_Team=',Last_Team)
+file1.write('Name:%s \nNumber:%s \nCountry:%s \nLast_Team:%s \n\n'%(Name,Number,Country,Last_Team))

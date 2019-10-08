@@ -13,7 +13,7 @@ With_·_Now = str(input('带有·的现在所在何处:'))
 #信息收集
 print('Number:%s \nName:%s \nYear_of_Birth:%s'%(Number,Name,Year_of_Birth))
 print('Nationality:%s \nPosition:%s \nLast_Team_before_Bayern:%s \nWith_·_Now:%s'%(Nationality,Position,Last_Team_before_Bayern,With_·_Now))
-#print到终端作为一次差错，如果出错及时更正
+#print到终端作为一次检查，如果出错及时更正
 rows = [
         ['01','Manuel Neuer','1988','Deutsch','GK','Shalke04',''],
         ['04','Nikolas Sule','1995','Deutsch','CB','Hoffinheim',''],

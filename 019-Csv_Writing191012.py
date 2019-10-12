@@ -33,10 +33,8 @@ rows = [
 new_row = [Number, Name, Year_of_Birth, Nationality, Position, Last_Team_before_Bayern, With_·_Now]  
 #  把所有元素直接塞进这个list里
 
-def insert_and_clear():
-    rows.append(new_row)  
-    #  每次在程序中输入完一行，就把新建的一个项(new_row)加入到rows中，最后再在下面的with处理段写入文件
-    #(未完待续)
+rows.append(new_row)  
+#  每次在程序中输入完一行，就把新建的一个项(new_row)加入到rows中，最后再在下面的with处理段写入文件
 
 with open('E:/python/019/testing.csv','w',newline='')as file1:  
     file1_csv = csv.writer(file1)
